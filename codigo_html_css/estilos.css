@@ -1,0 +1,127 @@
+@charset "UTF8";
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+0.Variaveis
+1.Container
+2.Menu
+3.Header
+4.NavBar
+5.Newsletters
+6.Footer
+*/
+
+/* Variaveis */
+:root{
+    --cor-01:#049a40 ;
+    --cor-02: #08f96a;
+    --cor-03: #e10bf9;
+    --cor-04: #f3a0fd;
+    --cor-05: #f5f5f5;
+}
+
+/* Estilos Gerais*/
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+a,a:hover,a:active,a:link,a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Menu */
+.menu_bg{
+    background-color: rgb(0, 0, 0);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.nav_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.nav_link{
+    padding: 20px 10px;
+}
+
+.intro{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.img_bloco{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.slogan_bloco{
+    margin: auto;
+    width: auto;
+    height: 13%;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.slogan{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+hr{
+    border: none;
+    background-color: var(--cor-03);
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.bloco_final{
+    display: flex;
+}
+
+.redes_socias{
+    padding: 10px;
+}
+
+.frase_final{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
